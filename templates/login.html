@@ -1,0 +1,36 @@
+
+<html>
+
+    <head>
+        <title>Cibil Score App</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <style type="text/css">
+          .margin-left {
+              margin: 112px 10px;
+          }
+          .btn-primary {
+              color: #fff;
+              background-color: #444c69;
+              border-color: #1d2235;
+          }
+        </style>
+    </head>
+    <body style="background-image:url(http://www.smbceo.com/wp-content/uploads/2018/05/CIBIL-score-2.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500); min-height: 130%;background-position: center;background-repeat: no-repeat;background-size: cover;position: relative; ">
+    <b><u><h1 align="right" style="color: black;margin: 112px 10px;"></h1></u></b>
+
+       <div align="center" class="margin-left">
+
+    <body>
+    <h1>Login page </h1>
+         <form method="post" action="">
+             {% csrf_token %}
+
+            {{form.as_p}}
+             <center><button type="submit" value="submit"> Login </button></center>
+
+         </form>
+   </body>
+       </div>
+</html>
